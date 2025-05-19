@@ -2,7 +2,7 @@
     @media (min-width: 320px){
         /* HOME */
         body main article .section-home{
-            height: auto;
+            min-height: 100vh;
             padding: 100px 0px;
         }
         body main article .section-home img{
