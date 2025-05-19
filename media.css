@@ -1,0 +1,991 @@
+@media (orientation: portrait){
+    @media (min-width: 320px){
+        /* HOME */
+        body main article .section-home{
+            height: auto;
+            padding: 100px 0px;
+        }
+        body main article .section-home img{
+            object-position: 70% 50%;
+        }
+        body main article .section-home div{
+            width: 100%;
+            padding-left: 20px;
+        }
+        body main article .section-home div h1{
+            font-size: 1.2rem;
+            width: 95%;
+            text-align: justify;
+        }
+        body main article .section-home div h2{
+            font-size: 1rem;
+            width: 95%;
+        }
+        /* HOME */
+
+        /* VIDEO */
+        body main article .section-first-video h2{
+            width: 90%;
+        }
+        body main article .section-first-video .video-resume{
+            width: 90%;
+        }
+        body main article .section-first-video .video-resume .controles.bottom{
+            gap: 20px;
+        }
+        /* VIDEO */
+
+        /*  TALK PUBLIC */
+        body main article .talk-public p{
+            text-align: center;
+        }
+        body main article .talk-public .feels-and-img{
+            width: 90%;
+        }
+        
+
+        body main article .talk-public .feels-and-img .feels .item1,
+        body main article .talk-public .feels-and-img .feels .item2,
+        body main article .talk-public .feels-and-img .feels .item3,
+        body main article .talk-public .feels-and-img .feels .item4,
+        body main article .talk-public .feels-and-img .feels .item5{
+            width: 90%;
+        }
+        body main article .talk-public .feels-and-img .feels .item1 i,
+        body main article .talk-public .feels-and-img .feels .item2 i,
+        body main article .talk-public .feels-and-img .feels .item3 i,
+        body main article .talk-public .feels-and-img .feels .item4 i,
+        body main article .talk-public .feels-and-img .feels .item5 i{
+            font-size: 1.2rem;
+        }   
+        body main article .talk-public .feels-and-img .feels .item1 p,
+        body main article .talk-public .feels-and-img .feels .item2 p,
+        body main article .talk-public .feels-and-img .feels .item3 p,
+        body main article .talk-public .feels-and-img .feels .item4 p,
+        body main article .talk-public .feels-and-img .feels .item5 p{
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+
+        body main article .talk-public .feels-and-img .feels .item1{
+            top: 10px;
+            left: 10px;
+        }
+        body main article .talk-public .feels-and-img .feels .item2{
+            top: 65%;
+            right: 0px;
+            bottom: unset;
+
+        }
+        body main article .talk-public .feels-and-img .feels .item3{
+            top: 30%;
+            right: 0px;
+        }
+        body main article .talk-public .feels-and-img .feels .item4{
+            top: 85%;
+            bottom: unset;
+            left: 0px;
+        }
+        body main article .talk-public .feels-and-img .feels .item5{
+            top: 47.5%;
+            left: 0px;
+        }
+        /*  TALK PUBLIC */
+
+        /* PRESENT PRODUCT */
+        body main article .present-product{
+            height: auto;
+            flex-direction: column;
+            gap: 50px;
+            padding: 50px 0px;
+        }
+        body main article .present-product div:nth-child(1),
+        body main article .present-product div:nth-child(2){
+            width: 90%;
+            padding: 0px;
+            align-items: center;
+        }
+        body main article .present-product div:nth-child(2) h2{
+            width: 95%;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        body main article .present-product div:nth-child(2) h3{
+            width: 95%;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        /* PRESENT PRODUCT */
+
+        /* BENEFITS */
+        body main article .benefits{
+            height: auto;
+            padding: 50px 0px;
+        }
+
+        body main article .benefits .itens{
+            width: 95%;
+        }
+        body main article .benefits .itens .line-itens{
+            gap: 25px;
+        }
+        body main article .benefits .itens .line-itens .item{
+            width: 45%;
+            height: 225px;
+        }
+        /* BENEFITS */
+
+        /* CLIENTS */
+        body main article .testimonials{
+            height: auto;
+            padding: 50px 0px;
+        }
+        body main article .testimonials .clients{
+            width: 80%;
+        }
+        body main article .testimonials .clients .item{
+            width: 100%;
+            height: auto;
+        }
+        /* CLIENTS */
+
+        /* REFUND */
+        body main article .refund{
+            height: auto;
+        }
+        body main article .refund .bar-guarantee div{
+            flex-direction: column;
+        }
+        body main article .refund .bar-guarantee div h2{
+            width: 90%;
+        }
+        body main article .refund .buy{
+            width: 95%;
+        }
+        body main article .refund .buy h2{
+            font-size: 1.8rem;
+            width: 100%;
+        }
+        /* REFUND */
+
+        /* FOOTER */
+        body footer .container{
+            flex-direction: column; 
+        }
+        body footer .container .footer-column:nth-child(1){
+            align-items: center;
+            width: 100%;
+        }
+        body footer .container .footer-column:nth-child(1) div{
+            width: 90%;
+        }
+        body footer .container .footer-column:nth-child(2){
+            width: 100%;
+            align-items: center;
+
+        }
+        body footer .container .footer-column:nth-child(2) div{
+            width: 90%;
+        }
+        /* FOOTER */
+
+        /* ALERT PRMOTION*/
+        body .alert{
+            padding: 15px 0px 50px 0px;
+        }
+    }
+    @media (min-width: 540px){
+        /* talk public */
+        body main article .talk-public{
+            gap: 5px;
+        }
+        body main article .talk-public .feels-and-img{
+            height: 60%;
+        }
+        body main article .talk-public .feels-and-img .feels .item2{
+            top: 55%;
+        }
+        body main article .talk-public .feels-and-img .feels .item3{
+            top: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item4{
+            top: 65%;
+        }
+        body main article .talk-public .feels-and-img .feels .item5{
+            top: 45%;
+        }
+        /* talk public */
+
+        /* CLIENTS */
+        body main article .testimonials .clients{
+            width: 80%;
+        }
+        body main article .testimonials .clients .item{
+            width: 46%;
+            height: auto;
+        }
+        /* CLIENTS */
+
+        /* FOOTER */
+        body footer .container .footer-column:nth-child(1) div,
+        body footer .container .footer-column:nth-child(2) div{
+            max-width: 600px;
+        }
+        /* FOOTER */
+        
+    }
+    @media (min-width: 768px){
+        /* TALK PUBLIC */
+        body main article .talk-public .feels-and-img .feels .item1{
+            top: 10%;
+            left: 10px;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item2{
+            bottom: 20%;
+            right: 10%;
+            left: unset;
+            top: unset;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item3{
+            top: 20%;
+            right: 50px;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item4{
+            bottom: 20%;
+            right: 50px;
+            top: unset;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item5{
+            top: 40%;
+            left: 5px;
+            width: 35%;
+        }
+
+        body main article .talk-public .feels-and-img .feels .item1 i,
+        body main article .talk-public .feels-and-img .feels .item2 i,
+        body main article .talk-public .feels-and-img .feels .item3 i,
+        body main article .talk-public .feels-and-img .feels .item4 i,
+        body main article .talk-public .feels-and-img .feels .item5 i{
+            font-size: 2rem;
+        }   
+        body main article .talk-public .feels-and-img .feels .item1 p,
+        body main article .talk-public .feels-and-img .feels .item2 p,
+        body main article .talk-public .feels-and-img .feels .item3 p,
+        body main article .talk-public .feels-and-img .feels .item4 p,
+        body main article .talk-public .feels-and-img .feels .item5 p{
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        /* TALK PUBLIC */
+    }
+}
+@media (orientation: landscape){
+    @media (min-width: 320px){
+        /* HOME */
+        body main article .section-home{
+            height: auto;
+            padding: 50px 0px;
+        }
+        body main article .section-home div h1{
+            width: 95%;
+            text-align: justify;
+            font-size: 1.5rem;
+        }
+        /* HOME */
+
+        /* VIDEO */
+        body main article .section-first-video{
+            height: auto;
+        }
+        body main article .section-first-video h2{
+            width: 85%;
+        }
+        body main article .section-first-video .video-resume{
+            width: 70%;
+        }
+        /* VIDEO */
+
+        /* TALK PUBLIC */
+        body main article .talk-public{
+            height: auto;
+        }
+        body main article .talk-public .feels-and-img{
+            width: 90%;
+        }
+        body main article .talk-public .feels-and-img .img{
+            width: 100%;
+        }
+
+        body main article .talk-public .feels-and-img .feels .item1{
+            top: 10px;
+            left: 10px;
+            width: 100%;
+        }
+        body main article .talk-public .feels-and-img .feels .item2{
+            bottom: unset;
+            top: 25%;
+            left: unset;
+            right: -20px;
+            width: 100%;
+            
+        }
+        body main article .talk-public .feels-and-img .feels .item3{
+            top: 45%;
+            left: 0px;
+            width: 100%;
+        }
+        body main article .talk-public .feels-and-img .feels .item4{
+            bottom: unset;
+            top: 65%;
+            right: -20px;
+            width: 100%;
+        }
+        body main article .talk-public .feels-and-img .feels .item5{
+            top: 85%;
+            left: -10px;
+            width: 100%;
+        }
+        body main article .talk-public p{
+            padding-top: 50px;
+        }
+        /* TALK PUBLIC */
+
+        /* CONTEÚDO PRESENT-PRODUCT */
+        body main article .present-product{
+            height: auto;
+            flex-direction: column;
+            padding: 100px 0px;
+        }
+        body main article .present-product div:nth-child(1),
+        body main article .present-product div:nth-child(2){
+            width: 90%;
+        }
+        /* CONTEÚDO PRESENT-PRODUCT */
+
+        /* BENEFITS */
+        body main article .benefits{
+            height: auto;
+            padding: 100px 0px;
+        }
+        body main article .benefits .itens{
+            width: 90%;
+        }
+        body main article .benefits .itens .line-itens .item{
+            height: 240px;
+        }
+        /* BENEFITS */
+
+        /* SECTION CLIENTS */
+        body main article .testimonials{
+            height: auto;
+        }
+        body main article .testimonials .clients{
+            width: 90%;
+        }
+        body main article .testimonials .clients .item{
+            width: 45%;
+            height: 230px;
+        }
+        /* SECTION CLIENTS */
+
+        /* SECTION REFUND */
+        body main article .refund{
+            height: auto;
+        }
+        /* SECTION REFUND */
+
+        /* ALERT PRMOTION*/
+        body .alert{
+            padding: 10px 0px 30px 0px;
+        }
+        /* ALERT PRMOTION*/
+        /* FOOTER */
+        body footer .container{
+            flex-direction: column;
+
+        }
+        body footer .container .footer-column{
+            width: 100%;
+            align-items: center !important;
+        }
+        /* FOOTER */
+
+    }
+    @media (min-width: 640px){
+        /* TALK PUBLIC */
+        body main article .talk-public .feels-and-img .feels .item1{
+            width: 45%;
+        }
+        body main article .talk-public .feels-and-img .feels .item2{
+            width: 45%;
+            
+        }
+        body main article .talk-public .feels-and-img .feels .item3{
+            width: 45%;
+        }
+        body main article .talk-public .feels-and-img .feels .item4{
+            width: 45%;
+        }
+        body main article .talk-public .feels-and-img .feels .item5{
+            width: 45%;
+        }
+        /* TALK PUBLIC */
+        /* BENEFITS */
+        body main article .benefits .itens .line-itens .item{
+            height: 220px;
+        }
+        /* BENEFITS */
+        /* SECTION CLIENTS */
+        body main article .testimonials .clients .item{
+            width: 45%;
+            height: 200px;
+        }
+        /* SECTION CLIENTS */
+    }
+    @media (min-width: 1024px){
+        /* HOME */
+        body main article .section-home{
+            height: 100vh;
+            padding: unset;
+        }
+        body main article .section-home div h1{
+            width: 90%;
+            font-size: 2rem;
+        }
+        /* HOME */
+
+        /* VIDEO */
+        body main article .section-first-video{
+            height: 100vh;
+        }
+        body main article .section-first-video h2{
+            width: 50%;
+        }
+        body main article .section-first-video .video-resume{
+            width: 50%;
+        }
+        /* VIDEO */
+
+        /* TALK PUBLIC */
+        body main article .talk-public{
+            height: 100vh;
+        }
+        body main article .talk-public .feels-and-img{
+            width: 80%;
+        }
+        body main article .talk-public .feels-and-img .img{
+            width: 70%;
+        }
+
+        body main article .talk-public .feels-and-img .feels .item1{
+            position: absolute;
+            top: 10%;
+            left: 50px;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item2{
+            position: absolute;
+            bottom: 20%;
+            left: 10%;
+            right: unset;
+            top: unset;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item3{
+            position: absolute;
+            top: 20%;
+            right: 50px;
+            left: unset;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item4{
+            position: absolute;
+            bottom: 20%;
+            right: 50px;
+            top: unset;
+            width: 35%;
+        }
+        body main article .talk-public .feels-and-img .feels .item5{
+            position: absolute;
+            top: 40%;
+            left: 5px;
+            width: 35%;
+        }
+
+        body main article .talk-public p{
+            padding-top: unset;
+        }
+        /* TALK PUBLIC */
+
+        /* CONTEÚDO PRESENT-PRODUCT */
+        body main article .present-product{
+            height: 100vh;
+            flex-direction: row;
+        }
+        body main article .present-product div:nth-child(1),
+        body main article .present-product div:nth-child(2){
+            width: 90%;
+        }
+        /* CONTEÚDO PRESENT-PRODUCT */
+
+        /* BENEFITS */
+        body main article .benefits{
+            height: 100vh;
+            padding: 100px 0px;
+        }
+        body main article .benefits .itens{
+            width: 70%;
+        }
+        body main article .benefits .itens .line-itens .item{
+            height: 220px;
+        }
+        /* BENEFITS */
+
+        /* SECTION CLIENTS */
+        body main article .testimonials{
+            height: 100vh;
+        }
+        body main article .testimonials .clients{
+            width: 70%;
+        }
+        body main article .testimonials .clients .item{
+            width: 30%;
+            height: 230px;
+        }
+        /* SECTION CLIENTS */
+
+        /* SECTION REFUND */
+        body main article .refund{
+            height: 100vh;
+        }
+        /* SECTION REFUND */
+
+        /* FOOTER */
+        body footer .container{
+            flex-direction: row;
+
+        }
+        body footer .container .footer-column{
+            width: 50%;
+        }
+        body footer .container .footer-column:nth-child(1){
+            align-items: end !important;
+        }
+        body footer .container .footer-column:nth-child(2){
+            align-items: start !important;
+        }
+        /* FOOTER */
+    }
+    @media (min-width: 1280px){
+        /* CLIENTS */
+        body main article .testimonials .clients .item{
+            height: 200px;
+        }
+        body main article .benefits .itens .line-itens .item{
+            height: 200px;
+        }
+        /* CLIENTS */
+    }
+    @media (min-width: 1560px){
+        /* HOME */
+        body main article .section-home div h1{
+            font-size: 2.2rem;
+        }
+        body main article .section-home div h2{
+            font-size: 1.4rem;
+        }
+        body main article .section-home div a{
+            font-size: 1.1rem;
+        }
+        /* HOME */
+
+        /* VIDEO */
+        body main article .section-first-video h2{
+            font-size: 1.7rem;
+        }
+        body main article .section-first-video p,
+        body main article .section-first-video a{
+            font-size: 1.1rem;
+        }        
+        /* VIDEO */
+
+        /* TALK PUBLIC */
+        body main article .talk-public h2{
+            font-size: 2.2rem;
+        }
+        body main article .talk-public p{
+            font-size: 1.4rem;
+        }
+        body main article .talk-public .feels-and-img .feels .item1 i,
+        body main article .talk-public .feels-and-img .feels .item2 i,
+        body main article .talk-public .feels-and-img .feels .item3 i,
+        body main article .talk-public .feels-and-img .feels .item4 i,
+        body main article .talk-public .feels-and-img .feels .item5 i{
+            font-size: 2.5rem;
+        }
+        body main article .talk-public .feels-and-img .feels .item1 p,
+        body main article .talk-public .feels-and-img .feels .item2 p,
+        body main article .talk-public .feels-and-img .feels .item3 p,
+        body main article .talk-public .feels-and-img .feels .item4 p,
+        body main article .talk-public .feels-and-img .feels .item5 p{
+            font-size: 1.1rem;
+        }
+        /* TALK PUBLIC */
+
+        /* CONTEÚDO PRESENT-PRODUCT */
+        body main article .present-product div:nth-child(2) h2{
+            font-size: 2.2rem;
+        }
+        body main article .present-product div:nth-child(2) h3{
+            font-size: 1.8rem;
+        }
+        body main article .present-product div:nth-child(2) p,
+        body main article .present-product div:nth-child(2) ul li,
+        body main article .present-product div:nth-child(2) a{ 
+            font-size: 1.1rem;
+        }
+        
+        /* CONTEÚDO PRESENT-PRODUCT */
+
+        /* BENEFITS */
+        body main article .benefits{
+            padding: unset;
+        }
+        body main article .benefits h2{
+            font-size: 2.2rem;
+        }
+        body main article .benefits .itens .line-itens .item span p{
+            font-size: 1.1rem;
+        }
+
+        /* BENEFITS */
+
+        /* CLIENTS */
+        body main article .testimonials h2{
+            font-size: 2.2rem;
+        }
+        body main article .testimonials .clients .item .h-item .name-client,
+        body main article .testimonials .clients .item .h-item .feedback,
+        body main article .testimonials .clients .item .content-item{
+            font-size: 1.1rem;
+        }
+        /* CLIENTS */
+
+        /* REFUND */
+        body main article .refund .bar-guarantee h2{
+            font-size: 2rem;
+        }
+        body main article .refund .bar-guarantee div span img{
+            width: 120px;
+            height: 120px;
+        }
+        body main article .refund .bar-guarantee p{
+            font-size: 1.1rem;
+        }
+
+        body main article .refund .buy h2{
+            font-size: 2.2rem;
+        }
+        body main article .refund .buy .button-buy a{
+            font-size: 1.7rem;
+        }
+        /* REFUND */
+
+        /* ALERT PROMOTION */
+        body .alert .content-alert p{
+            font-size: 1.2rem;
+        }
+        body .alert .buttons-alert button,
+        body .alert .buttons-alert a{
+            font-size: 1.1rem;
+        }
+        /* ALERT PROMOTION */
+
+        /* FOOTER */
+        body footer .container .footer-column:nth-child(1) div h2{
+            font-size: 2.2rem;
+        }
+        body footer .container .footer-column:nth-child(1) div a,
+        body footer .container .footer-column:nth-child(2) div p{
+            font-size: 1.1rem;
+        }
+        body footer .container .footer-column:nth-child(2) div p span{
+            font-size: 0.85rem;
+        }
+        /* FOOTER */
+    }
+    @media (min-width: 1920px){
+        /* HOME */
+        body main article .section-home div h1{
+            font-size: 2.5rem;
+        }
+        body main article .section-home div h2{
+            font-size: 1.7rem;
+        }
+        body main article .section-home div a{
+            font-size: 1.25rem;
+        }
+        /* HOME */
+
+        /* VIDEO */
+        body main article .section-first-video h2{
+            font-size: 2rem;
+        }
+        body main article .section-first-video p,
+        body main article .section-first-video a{
+            font-size: 1.25rem;
+        }        
+        /* VIDEO */
+
+        /* TALK PUBLIC */
+        body main article .talk-public h2{
+            font-size: 2.5rem;
+        }
+        body main article .talk-public p{
+            font-size: 1.7rem;
+        }
+        /* TALK PUBLIC */
+
+        /* CONTEÚDO PRESENT-PRODUCT */
+        body main article .present-product div:nth-child(2) h2{
+            font-size: 2.5rem;
+            width: 95%;
+        }
+        body main article .present-product div:nth-child(2) h3{
+            font-size: 2rem;
+        }
+        body main article .present-product div:nth-child(2) p,
+        body main article .present-product div:nth-child(2) ul li,
+        body main article .present-product div:nth-child(2) a{ 
+            font-size: 1.25rem;
+        }
+        
+        /* CONTEÚDO PRESENT-PRODUCT */
+
+        /* BENEFITS */
+        body main article .benefits{
+            padding: unset;
+        }
+        body main article .benefits h2{
+            font-size: 2.5rem;
+        }
+        body main article .benefits .itens .line-itens .item span p{
+            font-size: 1.25rem;
+        }
+
+        /* BENEFITS */
+
+        /* CLIENTS */
+        body main article .testimonials h2{
+            font-size: 2.5rem;
+        }
+        body main article .testimonials .clients .item .h-item .name-client,
+        body main article .testimonials .clients .item .h-item .feedback,
+        body main article .testimonials .clients .item .content-item{
+            font-size: 1.25rem;
+        }
+        /* CLIENTS */
+
+        /* REFUND */
+        body main article .refund .bar-guarantee h2{
+            font-size: 2.2rem;
+        }
+        body main article .refund .bar-guarantee div span img{
+            width: 135px;
+            height: 135px;
+        }
+        body main article .refund .bar-guarantee p{
+            font-size: 1.25rem;
+        }
+
+        body main article .refund .buy h2{
+            font-size: 2.5rem;
+        }
+        body main article .refund .buy .button-buy a{
+            font-size: 1.9rem;
+        }
+        body main article .refund .buy .button-buy span div p{
+            font-size: 0.9rem;
+        }
+        /* REFUND */
+
+        /* ALERT PROMOTION */
+        body .alert .content-alert p{
+            font-size: 1.5rem;
+        }
+        body .alert .buttons-alert button,
+        body .alert .buttons-alert a{
+            font-size: 1.25rem;
+        }
+        /* ALERT PROMOTION */
+
+        /* FOOTER */
+        body footer .container{
+            max-width: 1560px;
+        }
+        body footer .container .footer-column:nth-child(1) div h2{
+            font-size: 2.5rem;
+        }
+        body footer .container .footer-column:nth-child(1) div p{
+            font-size: 1.35rem;
+        }
+        body footer .container .footer-column:nth-child(1) div a,
+        body footer .container .footer-column:nth-child(2) div p{
+            font-size: 1.25rem;
+        }
+        body footer .container .footer-column:nth-child(2) div p span{
+            font-size: 0.9rem;
+        }
+
+        body footer .rights{
+            font-size: 1.05rem;
+        }
+        /* FOOTER */
+    }
+    @media (min-width: 2560px){
+        /* HOME */
+        body main article .section-home div h1{
+            font-size: 2.7rem;
+        }
+        body main article .section-home div h2{
+            font-size: 1.9rem;
+        }
+        body main article .section-home div a{
+            font-size: 1.4rem;
+        }
+        /* HOME */
+
+        /* VIDEO */
+        body main article .section-first-video h2{
+            font-size: 2.2rem;
+        }
+        body main article .section-first-video p,
+        body main article .section-first-video a{
+            font-size: 1.4rem;
+        }        
+        /* VIDEO */
+
+        /* TALK PUBLIC */
+        body main article .talk-public h2{
+            font-size: 2.7rem;
+        }
+        body main article .talk-public p{
+            font-size: 1.9rem;
+        }
+        body main article .talk-public .feels-and-img .feels .item1 i,
+        body main article .talk-public .feels-and-img .feels .item2 i,
+        body main article .talk-public .feels-and-img .feels .item3 i,
+        body main article .talk-public .feels-and-img .feels .item4 i,
+        body main article .talk-public .feels-and-img .feels .item5 i{
+            font-size: 2.7rem;
+        }
+        body main article .talk-public .feels-and-img .feels .item1 p,
+        body main article .talk-public .feels-and-img .feels .item2 p,
+        body main article .talk-public .feels-and-img .feels .item3 p,
+        body main article .talk-public .feels-and-img .feels .item4 p,
+        body main article .talk-public .feels-and-img .feels .item5 p{
+            font-size: 1.25rem;
+        }
+        /* TALK PUBLIC */
+
+        /* CONTEÚDO PRESENT-PRODUCT */
+        body main article .present-product div:nth-child(2) h2{
+            font-size: 2.6rem;
+            width: 100%;
+        }
+        body main article .present-product div:nth-child(2) h3{
+            font-size: 2.2rem;
+        }
+        body main article .present-product div:nth-child(2) p,
+        body main article .present-product div:nth-child(2) ul li,
+        body main article .present-product div:nth-child(2) a{ 
+            font-size: 1.4rem;
+        }
+        
+        /* CONTEÚDO PRESENT-PRODUCT */
+
+        /* BENEFITS */
+        body main article .benefits h2{
+            font-size: 2.7rem;
+        }
+        body main article .benefits .itens .line-itens .item span p{
+            font-size: 1.4rem;
+        }
+
+        /* BENEFITS */
+
+        /* CLIENTS */
+        body main article .testimonials h2{
+            font-size: 2.7rem;
+        }
+        body main article .testimonials .clients .item .h-item .name-client,
+        body main article .testimonials .clients .item .h-item .feedback,
+        body main article .testimonials .clients .item .content-item{
+            font-size: 1.4rem;
+        }
+        body main article .testimonials .clients .item{
+            height: 220px;
+        }
+        /* CLIENTS */
+
+        /* REFUND */
+        body main article .refund .bar-guarantee h2{
+            font-size: 2.7rem;
+        }
+        body main article .refund .bar-guarantee div span img{
+            width: 150px;
+            height: 150px;
+        }
+        body main article .refund .bar-guarantee p{
+            font-size: 1.4rem;
+        }
+
+        body main article .refund .buy h2{
+            font-size: 2.7rem;
+        }
+        body main article .refund .buy .button-buy a{
+            font-size: 2.1rem;
+        }
+        body main article .refund .buy .button-buy span div p{
+            font-size: 1rem;
+        }
+        body main article .refund .buy .button-buy span div{
+            width: 175px;
+        }
+        /* REFUND */
+
+        /* ALERT PROMOTION */
+        body .alert .content-alert p{
+            font-size: 1.7rem;
+        }
+        body .alert .buttons-alert button,
+        body .alert .buttons-alert a{
+            font-size: 1.4rem;
+        }
+        /* ALERT PROMOTION */
+
+        /* FOOTER */
+        body footer .container{
+            max-width: 2160px;
+        }
+        body footer .container .footer-column:nth-child(1) div h2{
+            font-size: 2.7rem;
+        }
+        body footer .container .footer-column:nth-child(1) div p{
+            font-size: 1.5rem;
+        }
+        body footer .container .footer-column:nth-child(1) div a,
+        body footer .container .footer-column:nth-child(2) div p{
+            font-size: 1.4rem;
+        }
+        body footer .container .footer-column:nth-child(2) div p span{
+            font-size: 1.05rem;
+        }
+        /* FOOTER */
+    }
+}
